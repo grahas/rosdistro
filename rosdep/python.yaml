@@ -6069,6 +6069,7 @@ python3-flask:
   nixos: [python3Packages.flask]
   rhel: [python3-flask]
   ubuntu: [python3-flask]
+  openembedded: [python3-flask@meta-python]
 python3-flask-bcrypt:
   debian: [python3-flask-bcrypt]
   nixos: [python3Packages.flask-bcrypt]
@@ -6083,6 +6084,7 @@ python3-flask-cors:
   ubuntu:
     '*': [python3-flask-cors]
     bionic: null
+  openembedded: [python3-flask-cors@meta-python]
 python3-flask-jwt-extended:
   debian:
     '*': [python3-python-flask-jwt-extended]
@@ -6097,6 +6099,7 @@ python3-flask-jwt-extended:
     bionic:
       pip:
         packages: [flask-jwt-extended]
+  openembedded: [python3-flask-jwt-extended@meta-python]
 python3-flask-migrate:
   debian: [python3-flask-migrate]
   fedora: [python3-flask-migrate]
@@ -6105,6 +6108,7 @@ python3-flask-migrate:
     '*': ['python%{python3_pkgversion}-flask-migrate']
     '7': null
   ubuntu: [python3-flask-migrate]
+  openembedded: [python3-flask-migrate@meta-python]
 python3-flask-restplus-pip:
   ubuntu:
     pip:
@@ -6113,6 +6117,7 @@ python3-flask-socketio:
   debian: [python3-flask-socketio]
   fedora: [python3-flask-socketio]
   ubuntu: [python3-flask-socketio]
+  openembedded: [python3-flask-socketio@meta-python]
 python3-flask-sqlalchemy:
   arch: [python-flask-sqlalchemy]
   debian: [python3-flask-sqlalchemy]
@@ -6120,6 +6125,7 @@ python3-flask-sqlalchemy:
   gentoo: [dev-python/flask-sqlalchemy]
   nixos: [python3Packages.flask_sqlalchemy]
   opensuse: [python-Flask-SQLAlchemy]
+  openembedded: [python3-flask-sqlalchemy@meta-python]
   rhel:
     '*': [python3-flask-sqlalchemy]
     '7': null
